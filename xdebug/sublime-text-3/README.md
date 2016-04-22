@@ -2,14 +2,11 @@
 This tutorial was based upon: http://www.sitepoint.com/debugging-xdebug-sublime-text-3/
 
 ##Installing and Setting up Xdebug PHP extension
-First of all you will need to check whether Xdebug is installed on your machine, you can quickly check that with phpinfo(). There should be a section dedicated for Xdebug.
+First of all check whether Xdebug is installed in the machine, that can be done through the phpinfo(), for instance. There should be a section dedicated for Xdebug.
 
-In case it's not there, you should install it first. I won't go in details about this installation, there are lots of materials in the internet about it and also it will depend upon the tool you are using to run PHP on your machine
-
-In my case I have MAMP free and it's pretty straightforward to configure it:
-
-* Open the file **MAMP/bin/php/php5.6.2/conf/php.ini**
-* Scroll down and uncomment the zend_extension for xdebug:
+###Enabling Xdebug on MAMP
+* Open the php.ini file accordingly the PHP version that you are running: **MAMP/bin/php/php5.6.2/conf/php.ini**
+* Scroll down and uncomment the zend_extension for xdebug line:
 ```
 [xdebug]
 zend_extension="/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/xdebug.so"
