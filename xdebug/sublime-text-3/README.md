@@ -5,6 +5,7 @@ This tutorial was based upon: http://www.sitepoint.com/debugging-xdebug-sublime-
 First of all check whether Xdebug is installed in the machine, that can be done through the phpinfo(), for instance. There should be a section dedicated for Xdebug.
 
 ###Enabling Xdebug on MAMP
+Fortunately Xdebug comes natively on MAMP through a Zend extension and it's pretty straightforward to enable it:
 * Open the php.ini file accordingly the PHP version that you are running: **MAMP/bin/php/php5.6.2/conf/php.ini**
 * Scroll down and uncomment the zend_extension for xdebug line:
 ```
