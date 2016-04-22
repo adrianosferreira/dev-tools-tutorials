@@ -42,7 +42,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 	"folders":
 	[
 		{
-			"path": "/Applications/MAMP/htdocs/comefacil"
+			"path": "/Applications/MAMP/htdocs/my-project"
 		},
 		{
 			"path": "/Applications/MAMP/bin"
@@ -52,7 +52,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 	{
 		"xdebug":
 		{
-			"url": "http://localhost:8888/comefacil/",
+			"url": "http://localhost:8888/my-project/",
 			"break_on_exception": false,
 			"max_depth": 1024,
 			"max_children": 9999
