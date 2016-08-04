@@ -54,8 +54,8 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 		{
 			"url": "http://localhost:8888/my-project/",
 			"break_on_exception": false,
-			"max_depth": 1024,
-			"max_children": 9999
+			"max_depth": 10,
+			"max_children": 100
 		}
 	}
 }
